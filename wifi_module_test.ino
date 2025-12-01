@@ -1,6 +1,6 @@
 #include <ESP8266WiFi.h>
 #include <SoftwareSerial.h>
-const char* ssid = "LAPTOP-NUE8DFUI 7287"; // 请将此处更改为您的Wi-Fi SSID
+const char* ssid = "Wi-Fi SSID"; // 请将此处更改为您的Wi-Fi SSID
 const char* password = "56&5Tu22"; // 请将此处更改为您的Wi-Fi密码
 const char* host = "192.168.137.1"; // 请将此处更改为您要连接的主机的IP地址
 const int port = 12346; // 请将此处更改为您要连接的主机的端口号
@@ -185,3 +185,4 @@ void loop(){
   //wifi把執行結果傳給server
   transmit(res_message);
 }
+
